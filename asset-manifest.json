@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Film-React-project/static/css/main.01c7cf49.css",
+    "main.js": "/Film-React-project/static/js/main.2f387c18.js",
+    "static/media/No_Image_Available.jpg": "/Film-React-project/static/media/No_Image_Available.e1ce751ef1b590f719f9.jpg",
+    "index.html": "/Film-React-project/index.html",
+    "main.01c7cf49.css.map": "/Film-React-project/static/css/main.01c7cf49.css.map",
+    "main.2f387c18.js.map": "/Film-React-project/static/js/main.2f387c18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c7cf49.css",
+    "static/js/main.2f387c18.js"
+  ]
+}
