@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  max-width: calc(100vw - 48px);
+  justify-content: center;
+  grid-gap: 20px;
+  width: 1200px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 56px - 56px);
+}
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color: tomato;
+}
+.card-img {
+  width: 400px;
+  height: 390px;
+  margin-right: 50px;
+}
+
+.btn {
+  display: block;
+}
+.singleCard {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 3px solid tomato;
+  margin-top: 20px;
+  display: flex;
+}
+.card-action {
+  color: tomato;
+}
+.card {
+  border: 4px solid tomato;
+}
+.button {
+  display: flex;
+}
+.file-path_validate {
+  color: white;
+}
+.btn {
+  margin: 0 auto;
+  background-color: red;
+  margin-bottom: 20px;
+}
+/* .navbar {
+  font-weight: bold;
+} */
+/* .btn-click {
+  color: white;
+} */
+.cast {
+  color: white;
+}
+.reviews {
+  color: white;
+}
+/* .cast-reviews {
+  display: flex;
+} */
+.castList {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  grid-auto-rows: minmax(auto, auto);
+  justify-content: center;
+  grid-gap: 20px;
+
+  padding: 40px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  height: 500px;
+  border: 3px solid tomato;
+  overflow-y: scroll;
+}
+
+.castWrapper {
+  padding: 20px 10px;
+}
+.castImg {
+  width: 100%;
+  height: 350px;
+}
+/* width: 250px;
+  height: 300px; */
+
+.CastItem__title {
+  color: white;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 110%;
+  margin: 0.8rem 0 1.68rem 0;
+}
+.CastItem {
+  border: 3px solid cadetblue;
+}
+#root {
+  background-color: black;
+}
+.reviewtitle {
+  color: gold;
+}
+.review {
+  color: tomato;
+}
+.date {
+  color: cadetblue;
+}
+.reviewsList {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 500px;
+  border: 4px solid tomato;
+  overflow-y: scroll;
+}
+.reviewitem {
+  margin-left: 30px;
+}
+.singlePageBtn {
+  margin: 0;
+}
+.button {
+  gap: 30px;
+}
+.genres {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
